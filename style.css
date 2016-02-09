@@ -16,11 +16,12 @@
 	color: #ffffff;
 }*/
 
-#cssmenu ul {
-  margin: 0;
-  padding: 10;
+#cssmenu .container {
+  margin-right: 0;
+  padding: 11;
   /*list-style-type: none;*/ 
   width: auto;
+  height: 60px;
   position: relative;
   display: block;
   font-size: 12px;
@@ -31,22 +32,13 @@
   zoom: 1;
 }
 
-/* Todo: figure out each this part does */
-#cssmenu ul:before {
-  content: '';
-  display: block;
-}
-#cssmenu ul:after {
-  content: '';
-  display: table;
-  clear: both;
-}
 #cssmenu li {
   display: block;
   /*float: left;*/
   margin: 0;
   margin-left: 230;
   padding: 0 4px; /* vertical space between each element */
+  /*display: inline;*/
 }
 #cssmenu li a {
   display: block;
@@ -70,12 +62,12 @@
 #media li a {
 	margin-right: 300;
 }
-
+/*
 .side .container {
 	width: 220px;
-	height: 100%;
+	height: auto;
 	float: left;
-	/*background-color: #f0f0f0;*/
+	background-color: #f0f0f0;
 	text-align: left;
 	border-right: 1px solid #060606;
 }
@@ -86,7 +78,7 @@
 	top: 25px;
 	font-size: 14px;
 	text-align: right;
-}
+}*/
 
 .main .container {
 	width: 100%;
@@ -97,17 +89,16 @@
 	position: relative;
 	font-weight: bold;
 	top: 25px;
-	left: 200px;
 	font-size: 24px;
-	margin-right: 500;
+	margin-left: 400;
 }
 
 .main .container p {
 	position: relative;
 	top: 50px;
-	left: 200px;
 	font-size: 14px;
-	margin-right: 600;
+	margin-right: 400;
+	margin-left: 400;
 }
 
 .main .today p {
