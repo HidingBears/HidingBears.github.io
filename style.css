@@ -1,27 +1,13 @@
 /* how to comment in css */
 
 
-/*.top {
-	background: url("snowman.jpg") no-repeat center 100% #ffff00;
-	height: 300px;
-	width: 100%;
-	margin-top: -20;
-}
-
-.top h1 {
-	position: relative;
-	text-align: center;
-	right: 230;
-	line-height: 300px;
-	color: #ffffff;
-}*/
 
 #cssmenu .container {
   margin-right: 0;
   padding: 11;
   /*list-style-type: none;*/ 
   width: auto;
-  height: 60px;
+  height: 8%;
   position: relative;
   display: block;
   font-size: 12px;
@@ -80,6 +66,10 @@
 	text-align: right;
 }*/
 
+.main {
+	background-color: #eedfcc;
+	height: 92%;
+}
 .main .container {
 	width: 100%;
 	color: #000f0f;
