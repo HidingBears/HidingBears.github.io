@@ -100,3 +100,10 @@
 	right: 20;
 }
 
+.main .travel img {
+  position: relative;
+  left: 33%;
+  margin-top: 5%;
+  width: 33%;
+  height: 33%;
+}
